@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1068.0" prefWidth="1916.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.meepocrush.MCController">
+   <children>
+      <ImageView fitHeight="1247.0" fitWidth="2216.0" layoutX="-302.0" layoutY="-178.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-216.0" AnchorPane.leftAnchor="-302.0" AnchorPane.rightAnchor="-569.0" AnchorPane.topAnchor="-178.0">
+         <image>
+            <Image url="@../../../images/background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#2f2ba4" layoutX="647.0" layoutY="138.0" stroke="#b5d95f" strokeType="OUTSIDE" text="MeepoCrush" textAlignment="CENTER" wrappingWidth="573.13671875">
+         <font>
+            <Font size="83.0" />
+         </font>
+      </Text>
+      <Text fill="#a32c2c" layoutX="562.0" layoutY="232.0" stroke="#b5d95f" strokeType="OUTSIDE" text="CRUSH THEM ALL!!!!!" textAlignment="CENTER" wrappingWidth="744.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="184.0" fitWidth="188.0" layoutX="842.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="806.0" layoutY="459.0" mnemonicParsing="false" onAction="#PlayButton" prefHeight="81.0" prefWidth="256.0" style="-fx-background-color: #483D8B;" text="ИГРАТЬ" textFill="#209e12">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button layoutX="806.0" layoutY="564.0" mnemonicParsing="false" onAction="#ExitButton" prefHeight="81.0" prefWidth="256.0" style="-fx-background-color: #483D8B;" text="ВЫХОД" textFill="#209e12">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="20.0" layoutY="973.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Made By WUMK" wrappingWidth="275.671875">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="848.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/star.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="154.0" layoutX="996.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/hammer.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

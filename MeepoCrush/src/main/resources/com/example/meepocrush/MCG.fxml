@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1015.0" prefWidth="1912.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.meepocrush.MCGController">
+   <children>
+      <ImageView fitHeight="1102.0" fitWidth="1970.0" layoutX="-1.0" layoutY="-88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="486.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="793.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1162.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="800.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="793.0" layoutY="765.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1143.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="455.0" layoutY="657.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/nora.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="114.0" layoutX="1205.0" layoutY="332.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(3).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="122.0" layoutX="848.0" layoutY="262.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="103.0" layoutX="857.0" layoutY="506.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(4).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="103.0" layoutX="519.0" layoutY="623.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="103.0" layoutX="857.0" layoutY="741.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(6).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="103.0" layoutX="1227.0" layoutY="597.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(7).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="meeepo1" fitHeight="122.0" fitWidth="123.0" layoutX="538.0" layoutY="354.0" onMouseClicked="#mepoOff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mepo(3).png" />
+         </image>
+      </ImageView>
+      <Text fill="#7d44c3" layoutX="68.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="СЧЕТ:" wrappingWidth="137.13671875">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Text>
+      <Text fill="#7d44c3" layoutX="214.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="29.13671875">
+         <font>
+            <Font size="54.0" />
+         </font>
+         <effect>
+            <Glow level="0.88" />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
