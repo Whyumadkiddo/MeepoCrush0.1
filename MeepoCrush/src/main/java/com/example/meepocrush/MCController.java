@@ -35,8 +35,7 @@ public class MCController {
 
         primaryStage.setScene(playScene);
 
-        primaryStage.setWidth(1935);
-        primaryStage.setHeight(1100);
+        primaryStage.setMaximized(true);
 
         primaryStage.show();
 
